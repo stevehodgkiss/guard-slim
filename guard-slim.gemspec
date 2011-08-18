@@ -4,7 +4,7 @@ require "guard/slim/version"
 
 Gem::Specification.new do |s|
   s.name        = "guard-slim"
-  s.version     = Guard::Slim::VERSION
+  s.version     = Guard::SlimVersion::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Florian Aßmann"]
   s.email       = ["florian.assmann@email.de"]
