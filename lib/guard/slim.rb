@@ -53,7 +53,7 @@ module Guard
         Template.new( @slim ) { source }.render @context
       end
       def all_paths
-        Watcher.match_files self, Dir[ ALL ]
+        Watcher.match_files self, Dir[ File.join(@input_root, ALL) ]
       end
 
   end
